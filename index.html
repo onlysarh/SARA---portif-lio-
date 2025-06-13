@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="imagem-perfil.png" alt="avatar da sara" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Sara </p>
+        <h1>Eu aprendo Programação</h1>
+        <p>Sou estudante da escola estadual EE.Silvio Miotto, aprendi informática no ensino técnico com o médio na federal acabei desistindo por motivos pssoais,  </p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">java</p>
+            <p class="badge bg-secondary">hardware</p>
+            <p class="badge bg-secondary">Redes de computadores </p>
+            <p class="badge bg-secondary">sistemas operacionais </p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">meu primeiro projeto com css</h5>
+                        <p class="card-text"> o objetivo da atividade, era fazer uma pagina em html e css usando imagens em png com uma serie ou filme favorito.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">aprendendo repetição </h5>
+                        <p class="card-text">Este projeto aprendi a repetir imagens de diferentes direções</p>
+                       
+                            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                                o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">aprendendo a colocar limk</h5>
+                        <p class="card-text"> nesse projeto eu aprendi a colocar link, e foi sobre um cantor favorito e musicas mais ouvidas por mim </p>
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                            <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modal1Label">Meu Primeiro Projeto com CSS</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Neste projeto, o objetivo era criar uma página usando apenas HTML e CSS, com imagens no formato PNG. Eu escolhi representar uma série ou filme favorito, trabalhando a estrutura da página com títulos, imagens e um pouco de descrição sobre o conteúdo escolhido.</p>
+                                            <p>Foi meu primeiro contato com estilização de páginas web, onde aprendi a aplicar cores, tamanhos de fonte e posicionamento de elementos com CSS.</p>
+                                            <img src="projeto-1.png" alt="Imagem do projeto 1" class="img-fluid w-100">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-primary" target="_blank">Ver projeto ao vivo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Modal 2 - Projeto de repetição de imagens em diferentes direções -->
+                            <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modal2Label">Aprendendo Repetição</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Neste segundo projeto, aprendi a trabalhar com a repetição de imagens em diferentes direções usando CSS. A proposta era criar um layout divertido e criativo, mostrando como as imagens podem se repetir em vários padrões de fundo.</p>
+                                            <p>Foi uma ótima oportunidade para entender melhor as propriedades de background-repeat, além de testar diferentes tipos de posicionamento visual.</p>
+                                            <img src="projeto-2.png" alt="Imagem do projeto 2" class="img-fluid w-100">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-primary" target="_blank">Ver projeto ao vivo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Modal 3 - Projeto sobre meu cantor favorito e músicas mais ouvidas (usando links) -->
+                            <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modal3Label">Aprendendo a Colocar Link</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Este projeto foi o meu primeiro contato com a criação de links no HTML. Escolhi falar sobre um cantor que gosto muito e suas músicas mais ouvidas por mim. Trabalhei com links externos, permitindo que ao clicar o visitante seja direcionado para as músicas em plataformas como YouTube ou Spotify.</p>
+                                            <p>Foi muito interessante entender como criar navegação entre páginas e também como abrir links em uma nova aba.</p>
+                                            <img src="projeto-3.png" alt="Imagem do projeto 3" class="img-fluid w-100">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-primary" target="_blank">Ver projeto ao vivo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    </main>
+
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/onlysarh">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Sara Almeida</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
